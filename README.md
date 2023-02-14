@@ -1,26 +1,32 @@
 # Bem-vindos :)
 
 Ao meu portifolio, onde apresento as minhas experiencias e conhecimentos.
-
+<br/>
 <br/>
 
+
 ![Presentation](https://github.com/IsadoraVanderlan/portifolioisadoravanderlan.github.io/blob/main/ezgif.com-gif-maker.gif)
-<br/><br/>
+<br/>
+<br/>
 
 # Link Para Visualização do Site:
-
 <a href="https://isadoravanderlan.github.io/portifolioisadoravanderlan.github.io/
 </a>
 <br/>
+<br/>
+
 
 # Técnicos:
-
 - HTML
 - CSS
+<br/>
+<br/>
 
 
 # Cores: 
 Rosa e azul= linear-gradient(#ce54a1, #6e7ee5);
+<br/>
+<br/>
 
 
 # Desenvolvimento!
