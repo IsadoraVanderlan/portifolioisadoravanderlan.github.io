@@ -18,7 +18,7 @@ Ao meu portifolio, onde apresento as minhas experiencias e conhecimentos.
 - HTML
 - CSS
 <br/>
-<br/>
+
 
 # Cores: 
 Rosa e azul= linear-gradient(#ce54a1, #6e7ee5);
