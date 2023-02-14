@@ -1,8 +1,3 @@
-# portifolioisadoravanderlan.github.io
-Portifólio
-
-Este é o meu portifolio para apresentar as minhas experiencias e conhecimentos
-
 # Bem-vindos :)
 
 Ao meu portifolio, onde apresento as minhas experiencias e conhecimentos.
