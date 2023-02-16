@@ -45,16 +45,34 @@
 
 @media (max-width: 800px) {
     .introducao {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;    
     }
     .introducao h1 {
-        font-size: 2rem;
+        font-size: 2rem;       
     }
-    /* .introducao h1::before {
+    .introducao h1::before {
         width: 100px;
         height: 150px;
         left: 0px;
-    } */
+    }
+    .perfil {
+        display: none;
+    }
+    .formacao {
+        padding: 0 60px;
+    }
+    .footer {
+        padding: 0 60px;
+    }
+    .footer p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .introducao {
+        padding: 30px 50px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -65,3 +83,15 @@
         width: 150px;
     }
 }
+
+@media (max-width: 380px) {
+    .introducao {
+        grid-template-columns: 1fr;
+    }
+    .formacao {
+        padding: 0px;
+    }
+    .footer {
+        padding: 0px;
+    }
+}   
