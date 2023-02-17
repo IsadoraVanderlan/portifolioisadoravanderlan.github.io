@@ -37,9 +37,18 @@
     color: #525252;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
+    .introducao {
+        grid-template-columns: 1fr;
+        margin: 0px;
+        padding: 50px;
+    }
+    grid-template-columns: 1fr 2fr;
     .introducao h1 {
         font-size: 3rem;
+    }
+    .perfil {
+        display: none;
     }
 }
 
@@ -54,9 +63,6 @@
         width: 100px;
         height: 150px;
         left: 0px;
-    }
-    .perfil {
-        display: none;
     }
     .formacao {
         padding: 0 60px;
