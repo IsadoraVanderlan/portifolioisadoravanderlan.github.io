@@ -1,0 +1,56 @@
+.sessao-port {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sessao-port h3 {
+    padding-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #c17ea3;
+}
+
+.sessao-port span {
+    padding-top: 40px;
+    font-size: 15px;
+    text-align: center;
+    color: #32226d;
+}
+
+.sessao-port h2 {
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #c17ea3;
+}
+
+.sessao-port ul {
+    display: flex;
+    gap: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.port {
+    border: 10px solid hsla(305, 23%, 9%, 0.333);
+    border-radius: 10px;
+}
+
+.img-port {
+    padding: auto;
+    margin-bottom: 20px;
+}
+
+.desc-port {
+    color: linear-gradient(#c17ea3, #8b68d7);
+}
+
