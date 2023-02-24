@@ -9,14 +9,17 @@
     padding-top: 40px;
     font-size: 20px;
     text-align: center;
-    color: #c17ea3;
+    color: #857ec1;
 }
 
 .sessao-port span {
-    padding-top: 40px;
     font-size: 15px;
     text-align: center;
     color: #32226d;
+}
+
+.desc-port {
+    margin-bottom: 50px;
 }
 
 .sessao-port h2 {
