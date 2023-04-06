@@ -13,7 +13,7 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    color: #c17ea3;
+    color: #93309e;
     text-transform: uppercase;
 }
 
@@ -21,7 +21,7 @@
     padding-top: 40px;
     font-size: 20px;
     text-align: center;
-    color: #7e79ba;
+    color: #93309e;
     text-transform: uppercase;
 }
 
@@ -47,14 +47,14 @@
 }
 
 .port {
-    background: hsla(306, 22%, 9%, 0.883);
-    border: 10px solid hsla(305, 23%, 9%, 0.333);
-    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    border: 5px solid hsl(305, 21%, 89%);
+    /* border-radius: 10px; */
 }
 
 .img-port {
     padding: auto;
-    margin-bottom: 20px;
+    margin-bottom: px;
 }
 
 .desc-port {
@@ -63,6 +63,6 @@
 }
 
 .titulo-port:hover {
-    color: #c17ea3;
+    color: #ccbdeb;
 }
 
