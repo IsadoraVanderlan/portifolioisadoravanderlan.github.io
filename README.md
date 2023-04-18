@@ -15,8 +15,9 @@ Ao meu portifolio, onde apresento as minhas experiencias e conhecimentos.
 <br/>
 
 # Técnicos:
-- HTML
-- CSS
+- HTML;
+- CSS;
+- JavaScript.
 <br/>
 
 
