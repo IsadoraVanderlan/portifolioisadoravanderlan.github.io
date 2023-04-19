@@ -1,38 +1,57 @@
 
 .footer-container {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background: #000000;
+    padding: 50px;
+    gap: 50px;
 }
 
 .footer-texto {
     font-size: 1.2rem;
     line-height: 1.5rem;
-    color: rgb(255, 255, 255);
-    padding-top: 80px;
+    color: rgb(208, 193, 214);
+    padding-right: 80px;
 }
 
-.footer-contato {
-    padding-top: 50px;
-    padding-bottom: 50px;
+.titulo-footer {
+    color: rgb(208, 193, 214);
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
-.footer-contato li {
+.contatos {
+    color: #ec74f9aa;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    padding-bottom: 2rem;
+}
+
+.footer-redes {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    font-size: 2rem;
+}
+
+.footer-redes li {
     font-weight: 100px;
     font-size: 1.1rem;
     line-height: 1.1;
     margin-bottom: 10px;
 }
 
-.margin {
-    margin-bottom: 50px;
+.footer-redes a {
+    color: #ec74f9aa;
 }
 
-.footer-contato a {
-    color: #d457e2;;
-}
-
-.footer-contato a:hover {
+.footer-redes a:hover {
     color: #ccbdeb;
+}
+
+.footer-redes a, i {
+    font-size: 1.5rem;
 }
 
 .footer-copy {
@@ -40,7 +59,7 @@
     font-size: 1rem;
     color: #ffffff;
     text-align: center;
-    background-color: #6f717172;
+    background-color: #412d43aa;
     padding: 15px;
 }
 

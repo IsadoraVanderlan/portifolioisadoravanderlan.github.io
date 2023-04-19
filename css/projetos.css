@@ -1,6 +1,7 @@
 .projeto-list {
     padding-top: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 150px;
+
 }
 
 .projeto-list h2 {
@@ -8,7 +9,7 @@
 }
 
 .projeto-list span {
-    color: #cf54a2;
+    color: #9424a1aa;
 }
 
 .projeto-list h3 {
@@ -39,7 +40,7 @@
 .img-lista {
     width: 95%;
     height: 150%;
-    border: 10px solid rgba(161, 8, 243, 0.413);
+    border: 5px solid #9424a1aa;
     border-radius: 4px;
 }
 
@@ -67,7 +68,7 @@
     height: 8px;
     width: 12px;
     margin-right: 8px;
-    background: #cf54a2;
+    background: #9424a1aa;
     transition: width 0.2s;
 }
 
