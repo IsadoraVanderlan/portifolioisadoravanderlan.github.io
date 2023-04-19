@@ -39,7 +39,8 @@
 .img-lista {
     width: 95%;
     height: 150%;
-    border: 2px solid rgb(118, 106, 106);
+    border: 10px solid rgba(161, 8, 243, 0.413);
+    border-radius: 4px;
 }
 
 .img-lista img {
@@ -66,7 +67,7 @@
     height: 8px;
     width: 12px;
     margin-right: 8px;
-    background: #6e7ee5;
+    background: #cf54a2;
     transition: width 0.2s;
 }
 
