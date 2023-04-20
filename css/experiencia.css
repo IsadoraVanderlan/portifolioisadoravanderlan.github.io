@@ -82,12 +82,12 @@
 }
 
 @media (max-width: 800px) {
-    .experiencie {
+    .experiencia {
         grid-template-columns: 1fr;
         gap: 40px;
     }
 
-    .experiencie .subtitulo {
+    .experiencia .subtitulo {
         color: #141414;
     }
 

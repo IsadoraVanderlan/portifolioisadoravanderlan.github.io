@@ -29,4 +29,4 @@ Ao meu portifolio, onde apresento as minhas experiencias e conhecimentos.
 <br/>
 
 # Desenvolvimento!
-Este projeto foi criado e desenvolvido por mim, usando como base de inspiração e layout do curso Origamid.
+Este projeto foi criado e desenvolvido por mim, usando como base de inspiração o layout do curso Origamid.

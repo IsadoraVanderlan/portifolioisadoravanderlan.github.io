@@ -37,13 +37,12 @@
     color: #525252;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1000px) {
     .introducao {
         grid-template-columns: 1fr;
         margin: 0px;
         padding: 50px;
     }
-    grid-template-columns: 1fr 2fr;
     .introducao h1 {
         font-size: 3rem;
     }
@@ -54,15 +53,16 @@
 
 @media (max-width: 800px) {
     .introducao {
-        grid-template-columns: 1fr;    
+        grid-template-columns: 1fr; 
     }
     .introducao h1 {
         font-size: 2rem;       
     }
     .introducao h1::before {
-        width: 100px;
-        height: 150px;
+        width: 130px;
+        height: 100px;
         left: 0px;
+        margin-bottom: 100px;
     }
     .formacao {
         padding: 0 60px;
