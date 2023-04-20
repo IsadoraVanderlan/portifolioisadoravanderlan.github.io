@@ -8,7 +8,7 @@ Ao meu portifolio, onde apresento as minhas experiencias e conhecimentos.
 <br/>
 <br/>
 
-# Link Para Visualização do Site:
+# Link:
 <a href="https://isadoravanderlan.github.io/portifolioisadoravanderlan.github.io/">Portifólio Isadora Vanderlan
 </a>
 <br/>
