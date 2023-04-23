@@ -1,7 +1,12 @@
+.subtitulo-projetos {
+    font-size: 4rem;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
 .projeto-list {
     padding-top: 60px;
     padding-bottom: 150px;
-
 }
 
 .projeto-list h2 {

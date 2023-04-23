@@ -22,9 +22,9 @@ Ao meu portifolio, onde apresento as minhas experiencias e conhecimentos.
 
 
 # Cores: 
-- Rosa: #ce54a1
-- Azul: #6e7ee5
-- Rosa e azul= linear-gradient(#ce54a1, #6e7ee5);
+- Rosa: #ce54a1;
+- Azul: #6e7ee5;
+- Rosa e azul= linear-gradient(#ce54a1, #6e7ee5).
 <br/>
 <br/>
 
