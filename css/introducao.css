@@ -37,6 +37,13 @@
     color: #525252;
 }
 
+
+/* ANIMAÇÃO */
+.texto-intro, .expreriencia, .formacao, .projeto-list{
+    visibility: hidden;
+}
+
+/* MOBILE */
 @media (max-width: 1000px) {
     .introducao {
         grid-template-columns: 1fr;
