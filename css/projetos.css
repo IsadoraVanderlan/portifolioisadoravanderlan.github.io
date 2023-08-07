@@ -1,103 +1,171 @@
-.subtitulo-projetos {
-    font-size: 4rem;
-    line-height: 1;
-    text-transform: uppercase;
-    margin-top: 50px;
-}
-.projeto-list {
-    padding-top: 60px;
-    padding-bottom: 150px;
+.cqc {
+    background: url("../img/cqc.svg");
+    background-size: 320px;
+    border: 2px solid;
 }
 
-.projeto-list h2 {
-    margin-bottom: 40px;
+.iba {
+    background: url("../img/iba.svg");
+    background-size: 320px;
+    border: 2px solid;
 }
 
-.projeto-list span {
-    color: #9424a1aa;
+.maelu {
+    background: url("../img/maelu.svg");
+    background-size: 320px;
+    border: 2px solid;
 }
 
-.projeto-list h3 {
-    color: #0a0107;
+.casa {
+    background: url("../img/casadosgrampos.svg");
+    background-size: 320px;
+    border: 2px solid;
 }
 
-.projeto-list ul {
-    display: flex;
-    gap: 40px;
-    padding: 0 20px 20px 20px;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: auto;
+.projetos {
+    padding-top: 93px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
 }
 
-.projeto-list ul {
-    padding: 0px 0px 20px 0px;
-    word-break: break-all;
+.projetos h2, .projetos a {
+    text-align: center;
 }
 
-.projeto-list li {
-    flex: 1;
-    min-width: 280px;
-    word-break: break-all;
+.projetos h2 {
+    padding-bottom: 70px;
+    font-size: 50px;
 }
 
-.img-lista {
-    width: 95%;
-    height: 150%;
-    border: 5px solid #9424a1aa;
+.projetos a {
+    display: inline;
+}
+
+button {
+    padding: 10px 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: #d840e9aa;
+    border: none;
+    transition: ease-in-out 0.3s;
+}
+
+button:hover {
+    background-color: #9424a1aa;
+}
+
+.github-link {
+    background: linear-gradient(#B58DA4, #c49bb2);
+    color: #fff !important;
     border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    max-width: max-content;
+    padding: 4px 12px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
 }
 
-.img-lista img {
-    width: 100%;
-}
+.github-link:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+ }
 
-.projeto-list img {
-    margin-bottom: 16px;
-}
-
-.projeto-list a {
-    display: block;
-}
-
-.projeto-list h3 {
-    margin-bottom: 16px;
+.embreve {
+    background: linear-gradient(#c17ea3, #8b68d7);
+    border: 2px solid;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
 }
 
-.projeto-list h3::before {
-    content: '';
-    display: inline-block;
-    height: 8px;
-    width: 12px;
-    margin-right: 8px;
-    background: #9424a1aa;
-    transition: width 0.2s;
+.pro {
+    border: 2px solid;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
 }
 
-.projeto-list a:hover  h3::before {
-    width: 24px;
+.pro div p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #C4C4C4;
 }
 
-.projeto-list li span {
-    padding-left: 20px;
+.pro:hover {
+    letter-spacing: 5px;
 }
 
-.subtitulo-p {
-    margin-top: 100px;
-    font-size: 3rem;
-    /* line-height: 1rem; */
-    text-transform: uppercase;
+.pro div {
+    background-color: #543c7766;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
 }
 
-@media (max-width: 800px) {
-    .projeto-list {
-        padding-bottom: 60px;
-    }
+.pro:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+ }
 
-    .projeto-list ul {
-        gap: 20px;
+.escondido {
+    opacity: 0;
+    display: none;
+    transition: 1000ms;
+}
+
+.projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+
+/* RESPONSIVO */
+@media (max-width:1200px) {
+  .projetos{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #projetos {
+      display: flex;
+      justify-content: center;
+  }
+
+  .projetos-itens {
+      flex-direction: column;
+  }
+
+}
+
+@media (max-width:950px) {
+    .pro {
+        max-width: 300px;
     }
 }
