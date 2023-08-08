@@ -3,7 +3,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background: #000000;
-    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 70px;
+    padding-bottom: 50px;
     gap: 50px;
 }
 
