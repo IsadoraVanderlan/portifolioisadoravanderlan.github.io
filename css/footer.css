@@ -83,7 +83,7 @@
     .footer-container {
         grid-template-columns: 1fr;
         gap: 40px;
-        padding: 50px;
+        /* padding: 50px; */
         text-align: left;
     }
 
